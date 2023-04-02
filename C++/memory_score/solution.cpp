@@ -61,13 +61,13 @@ int main(){
     photo.push_back(temp);
     temp.clear();
 
-    cout << name[0] << endl;
-
+    cout << yearning.size() << endl;
+    cout << "dasd" << endl;
+    
     for(int i=0;i<solution(name,yearning,photo).size();i++){
         cout << solution(name,yearning,photo)[i] << endl;
     }
     
-
     
     return 0;
 }
