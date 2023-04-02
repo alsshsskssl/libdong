@@ -1,3 +1,4 @@
+#include <iostream>
 #include <string>
 #include <vector>
 
@@ -17,13 +18,13 @@ int main(){
     vector<int> answer;
     
     
-    name.push_back("may")
-    name.push_back("kein")
-    name.push_back("kain")
-    name.push_back("radi")
+    name.push_back("may");
+    name.push_back("kein");
+    name.push_back("kain");
+    name.push_back("radi");
 
 
-    cout << name << endl;
+    cout << name[0] << endl;
     //yearning.push_back
 
 
