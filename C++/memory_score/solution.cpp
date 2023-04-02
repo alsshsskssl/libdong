@@ -23,8 +23,8 @@ int main(){
     name.push_back("radi")
 
 
-
-    yearning.push_back
+    cout << name << endl;
+    //yearning.push_back
 
 
     return 0;
