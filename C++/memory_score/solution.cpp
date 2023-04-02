@@ -9,14 +9,17 @@ vector<int> solution(vector<string> name, vector<int> yearning, vector<vector<st
 
     int temp = 0;
     for(int i=0;i<photo.size();i++){
-        for(int j=0;j<photo[i].size();i++){
+        for(int j=0;j<photo[i].size();j++){
             for(int k=0;k<name.size();k++){
                 if(!photo[i][j].compare(name[k])){
-                    answer.push_back(yearning[k]);
-                    break;
+                    temp += yearning[k];
+                    //cout << photo[i][j] << "=" << name[k] << "\t" << yearning[k] << "\t";
                 }
             }
         }
+        answer.push_back(temp);
+        //cout << "push_" << temp << endl;
+        temp = 0;
     }
 
     return answer;
@@ -28,6 +31,7 @@ int main(){
     vector<string> temp;
     vector<vector<string>> photo;
     vector<int> answer;
+    vector<int> tmp;
     
     name.push_back("may");
     name.push_back("kein");
@@ -61,11 +65,12 @@ int main(){
     photo.push_back(temp);
     temp.clear();
 
-    cout << yearning.size() << endl;
-    cout << "dasd" << endl;
+    //cout << solution(name,yearning,photo)[0] << endl;
     
-    for(int i=0;i<solution(name,yearning,photo).size();i++){
-        cout << solution(name,yearning,photo)[i] << endl;
+    tmp = solution(name,yearning,photo);
+
+    for(int i=0;i<tmp.size();i++){
+        cout << tmp[i] << endl;
     }
     
     
