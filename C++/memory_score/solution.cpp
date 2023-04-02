@@ -16,13 +16,14 @@ int main(){
     vector<vector<string>> photo;
     vector<int> answer;
     
+    
     name.push_back("may")
     name.push_back("kein")
     name.push_back("kain")
     name.push_back("radi")
 
 
-    
+
     yearning.push_back
 
 
