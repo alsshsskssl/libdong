@@ -31,7 +31,7 @@ int main(){
     vector<string> temp;
     vector<vector<string>> photo;
     vector<int> answer;
-    vector<int> tmp;
+    vector<int> tmp;    //debug
     
     name.push_back("may");
     name.push_back("kein");
