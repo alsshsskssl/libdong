@@ -2,6 +2,10 @@
     "files.associations": {
         "iostream": "cpp",
         "ostream": "cpp",
-        "typeinfo": "cpp"
+        "typeinfo": "cpp",
+        "iosfwd": "cpp",
+        "vector": "cpp",
+        "array": "cpp",
+        "deque": "cpp"
     }
 }
